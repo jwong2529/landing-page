@@ -84,4 +84,43 @@ button {
     box-shadow: 0 0 5px 5px #211d1d;
 }
 
+.top-middle {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
 
+.gallery {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+
+.gallery-image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    max-width: 180px;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 10px;
+}
+
+.random-info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.gallery-description {
+    font-size: 18px;
+    color: #989ea9;
+}
