@@ -64,7 +64,7 @@ a {
     color: #e5e7eb;
 }
 
-button {
+.main-button {
     background-color: #3882f6;
     color: #e5e7eb;
     border-radius: 4px;
@@ -129,7 +129,7 @@ button {
 
 .bottom-middle {
     background-color: #e5e7eb;
-    padding: 90px 235px;
+    padding: 80px 235px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,4 +147,46 @@ button {
     font-weight: bold;
     color: #1f2937;
     align-self: flex-end;
+}
+
+.bottom {
+    padding: 90px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    width: 800px;
+    padding: 40px 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action {
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.action-statement {
+    color: #e5e7eb;
+    font-weight: 300;
+}
+
+.inside-box {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 4px;
+    width: 110px;
+    padding: 5px 5px;
+    font-weight: bold;
+    border: 2px solid #f9faf8;
+}
+
+.blue-right {
+    display: flex;
+    flex-direction: column;
 }
