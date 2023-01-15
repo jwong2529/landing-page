@@ -190,3 +190,15 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    padding: 30px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color: #e5e7eb;
+}
