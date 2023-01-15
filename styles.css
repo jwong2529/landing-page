@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    height: 400px;
+    background-color: #1f2937;
+    padding-top: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    height: 45px;
+    width: auto;
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
